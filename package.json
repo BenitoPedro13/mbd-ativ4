@@ -1,0 +1,28 @@
+{
+  "name": "mbd-ativ4",
+  "version": "1.0.0",
+  "description": "Consultas de álgebra relacional para cadastro de funcionários",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "seed": "ts-node src/db/seed.ts",
+    "db:queries": "ts-node src/db/run-queries.ts"
+  },
+  "keywords": [
+    "relational-algebra",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.9.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  },
+  "packageManager": "pnpm@10.13.1"
+}
